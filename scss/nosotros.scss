@@ -1,0 +1,84 @@
+@import "colores";
+
+.bio{
+    text-align: center;
+  }
+  .bio__intro{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: $txtVerde;
+  }
+  .bio__intro__txt{
+    font-size: 18px;
+  }
+  .bio__inicio{
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content:space-around ;
+    margin: 50px 00px;
+    background-color: $fondo;
+    align-items: center;
+  
+  
+  }
+  .bio__ppios{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px 00px;
+    background-color: $fondo;
+    align-items: center;
+  }
+  
+  .bio__txt{
+    
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0px 50px;
+    margin: 00px 00px 00px 0px;
+    align-content: center   ;
+  }
+  
+  .bio__titulo {
+        color: $fondoCard;
+        background-color: $textoGris;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        margin: 30px 100px 30px 0px;
+        padding: 30px 100px 30px 10px;
+    }
+  h4 {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: $textoGris;
+  }
+  .bio-img{
+    text-align: center;
+  }
+  .bio__ubicacion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px 00px;
+    align-items: center;   
+  }
+  
+  .bio__ubicacion__titulo{
+    color: $fondoCard;
+    background-color: $textoGris;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 30px 30px;
+    padding: 10px 250px;
+  }
+  
+  

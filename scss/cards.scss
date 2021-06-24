@@ -1,0 +1,79 @@
+@import "colores";
+
+   /* inicio productos destacados*/
+ .productosDestacados{
+	text-align: center;
+}
+
+.productosDestacados__titulo{
+	text-align: center;
+	background-color: $fondo;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding: 0px 50px;
+	margin: 10px 00px 00px 0px;
+}
+.productosDestacados__productos {
+		background-color: $fondoCard;
+		padding: 15px;
+		margin: 10px;
+	}
+	.productosDestacados__productos__nombre {
+		color: $fondoCard;
+		background-color: $textoGris;
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: normal;
+		margin: 10px;
+	}
+	.productosDestacados__productos__descripcion{
+		color: $textoGris;
+		background-color: $fondoCard;
+		
+	}
+
+
+  /* shop*/
+.card {
+	background-color: $fondoCard;
+}
+.listaProductos{
+	text-align: center;
+  }
+  
+  .listaProductoss__titulo{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding: 0px 50px;
+	margin: 10px 00px 00px 0px;
+	justify-content: center;
+
+  }
+  .listaProductos__productos {
+		color: $txtVerde;
+		background-color: $fondoCard;
+		padding: 15px;
+		margin: 10px;
+	}
+	.listaProductos__productos__nombre {
+		color: $fondoCard;
+		background-color: $textoGris;
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: normal;
+		margin: 10px;
+	}
+	.listaProductos__productos__descripcion{
+		color: $textoGris;
+		background-color: $fondoCard;
+  
+	}
+	.btn{
+		background-color: $calltoaction;
+		border: $calltoaction;
+	}
+  
+  

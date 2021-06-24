@@ -1,0 +1,25 @@
+@import "colores";
+
+.carro__grupo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .carro-item-titulo{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: $calltoaction;
+    margin: 10px 0px;
+    padding: 0px 150px;
+  }
+  .carro-item{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: $textoGris;
+    color: $fondoCard;
+    margin: 5px 0px;
+    padding: 0px 150px;
+  }

@@ -1,0 +1,43 @@
+@import "colores";
+
+.header{
+    bottom: 30px;
+    top: 0px;
+    padding: 30px 25px 10px 25px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header__navbar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.nav-item{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    display: inline;
+}
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+
+/* vista desktop*/
+@media only screen and (min-width: 992px){
+    .header__navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    bottom: 30px;
+    margin-bottom: 50px;
+    padding: 0px 30px;
+    text-align: right;
+    top: 0px;
+    margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,17 @@
+@import "colores";
+
+.container-fluid{padding-left:0px;padding-right: 0px;}
+
+.listaProductos__banner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.listaProductos__titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $blanquito;
+}
