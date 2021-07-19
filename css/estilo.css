@@ -1,53 +1,3 @@
-.bg-light {
-  background-color: #c88b4c !important; }
-
-@media only screen and (max-width: 768px) {
-  .mobile .container {
-    width: 100%; } }
-
-@media only screen and (max-width: 980px) {
-  .tablet .container {
-    width: 100%; } }
-
-@media only screen and (max-width: 1080px) {
-  .desktop .container {
-    width: 100%; } }
-
-/* mixin */
-/* ===== Usage ===== */
-h1 {
-  font-size: 10px; }
-  @media only screen and (min-width: 1280px) {
-    h1 {
-      font-size: 70px; } }
-  h1 .header__navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    bottom: 30px;
-    margin-bottom: 50px;
-    padding: 0px 30px;
-    text-align: right;
-    top: 0px;
-    margin-bottom: 10px; }
-
-/* vista mobile*/
-@media only screen and (max-width: 768px) {
-  .productosDestacados__titulo {
-    text-align: center;
-    background-color: #d1c5b8;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding: 0px 0px;
-    margin: px 00px 00px 0px; }
-  .productosDestacados__productos {
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    margin: 0px 0px 0px 0px; } }
-
 .footer {
   display: flex;
   flex-direction: row;
@@ -176,12 +126,13 @@ h1 {
 
 /* shop*/
 .card {
-  background-color: #e1e7dd; }
+  background-color: #e1e7dd;
+  border: 0px; }
 
 .listaProductos {
   text-align: center; }
 
-.listaProductoss__titulo {
+.listaProductos__titulo {
   text-align: center;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
@@ -211,6 +162,9 @@ h1 {
 .btn {
   background-color: #c88b4c;
   border: #c88b4c; }
+
+.card-img-top {
+  margin-top: 12px; }
 
 .bg-light {
   background-color: #c88b4c !important; }
@@ -296,6 +250,10 @@ body {
   margin-bottom: 30px;
   margin-top: 30px; }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
 .bg-light {
   background-color: #c88b4c !important; }
 
@@ -313,13 +271,86 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: antiquewhite; }
+  color: antiquewhite;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 0px 50px;
+  margin: 10px 00px 00px 0px;
+  justify-content: center; }
 
 .bg-light {
   background-color: #c88b4c !important; }
 
 .transition {
-  transition: all 1s; }
+  transition: all 0.5s; }
 
 .transition:hover {
   transform: translateY(-20px); }
+
+.bg-light {
+  background-color: #c88b4c !important; }
+
+@media only screen and (max-width: 768px) {
+  .productosDestacados__titulo {
+    text-align: center;
+    background-color: #d1c5b8;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: px 00px 00px 0px; }
+  .productosDestacados__productos {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px; }
+  .listaProductos__titulo {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .footer__logo {
+    color: #d1c5b8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    text-align: center; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1079px) {
+  .productosDestacados__titulo {
+    text-align: center;
+    background-color: #d1c5b8;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: px 00px 00px 0px; }
+  .productosDestacados__productos {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px; }
+  .piura {
+    padding-bottom: 25px; } }
+
+@media only screen and (min-width: 1080px) {
+  .header__navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    bottom: 30px;
+    margin-bottom: 50px;
+    padding: 0px 30px;
+    text-align: right;
+    top: 0px;
+    margin-bottom: 10px; }
+  .listaProductos__titulo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .piura {
+    padding-bottom: 0px; } }

@@ -45,33 +45,116 @@
 	</header>
 	<!-- cierre nav -->
  <!-- inicio contenido -->
- <section class="carro" col-lg-6 col-xs-12 top> 
-        <ul class="carro__grupo list-group list-group-horizontal col-lg-6 col-xs-12 top">
-            <li class="carro-item-titulo list-group-item">Producto</li>
-            <li class="carro-item-titulo list-group-item">Cantidad</li>
-            <li class="carro-item-titulo list-group-item">Precio</li>
-        </ul>
-        <ul class="carro__grupo list-group list-group-horizontal-sm col-lg-6 col-xs-12 top">
-            <li class="carro-item list-group-item">P1</li>
-            <li class="carro-item list-group-item">3</li>
-            <li class="carro-item list-group-item">$38</li>
-        </ul>
-        <ul class="carro__grupo list-group list-group-horizontal-sm col-lg-6 col-xs-12 top">
-            <li class="carro-item list-group-item">P2</li>
-            <li class="carro-item list-group-item">2</li>
-            <li class="carro-item list-group-item">$70</li>
-        </ul>
-        <ul class="carro__grupo list-group list-group-horizontal-sm col-lg-6 col-xs-12 top">
-            <li class="carro-item list-group-item">P3</li>
-            <li class="carro-item list-group-item">3</li>
-            <li class="carro-item list-group-item">$38</li>
-        </ul>
-        <ul class="carro__grupo__total list-group list-group-horizontal-xxl col-lg-6 col-xs-12 top">
-            <li class="list-group-item col-lg-6 col-xs-12 top">
-                <h1 class="total">Total                    $xxx</h1>
+<section>
+ <div class="pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+
+        <!-- Carrito tabla -->
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="p-2 px-3 text-uppercase">Producto</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Precio</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Cantidad</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Eliminar</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="border-0">
+                  <div class="p-2">
+                    <img src="/assets/img/Producto1.jpg" alt="" width="70" class="bolsa de café">
+                    <div class="ml-3 d-inline-block align-middle">
+                      <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Café Lima</a></h5><span class="text-muted font-weight-normal font-italic d-block">500gr</span>
+                    </div>
+                  </div>
+                </th>
+                <td class="border-0 align-middle"><strong>$32.00</strong></td>
+                <td class="border-0 align-middle"><strong>3</strong></td>
+                <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="p-2">
+                    <img src="/assets/img/Producto5.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                    <div class="ml-3 d-inline-block align-middle">
+                      <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">Café Piura</a></h5><span class="text-muted font-weight-normal font-italic">1Kg</span>
+                    </div>
+                  </div>
+                </th>
+                <td class="align-middle"><strong>$60.00</strong></td>
+                <td class="align-middle"><strong>3</strong></td>
+                <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="p-2">
+                    <img src="/assets/img/Producto3.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                    <div class="ml-3 d-inline-block align-middle">
+                      <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block">Café Ica</a></h5><span class="text-muted font-weight-normal font-italic">500gr</span>
+                    </div>
+                  </div>
+                  <td class="align-middle"><strong>$32.00</strong></td>
+                  <td class="align-middle"><strong>3</strong></td>
+                  <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Fin carrito tabla -->
+      </div>
+    </div>
+    <div class="row py-5 p-4 bg-white rounded shadow-sm">
+      <div class="col-lg-6">
+        <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">¿Tienes un cupón?</div>
+        <div class="p-4">
+          <p class="font-italic mb-4">Por favor ingresa tu número de cupón abajo para obtener los beneficios</p>
+          <div class="input-group mb-4 border rounded-pill p-2">
+            <input type="text" placeholder="SUPERSALE2021" aria-describedby="button-addon3" class="form-control border-0">
+            <div class="input-group-append border-0">
+              <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-2"></i>Aplicar cupón</button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Instrucciónes para tu paquete</div>
+        <div class="p-4">
+          <p class="font-italic mb-4">Si tienes algún requisito en especial para la entrega de tu paquete, por favor escribelo debajo.</p>
+          <textarea name="" cols="30" rows="2" class="form-control"></textarea>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Resumen de la compra </div>
+        <div class="p-4">
+          <p class="font-italic mb-4">Los costos de envío y adicionales se calculan en función de los valores que ingresó.</p>
+          <ul class="list-unstyled mb-4">
+            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Subtotal </strong><strong>$124.00</strong></li>
+            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping</strong><strong>$15.00</strong></li>
+            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Impuestos</strong><strong>$29.19</strong></li>
+            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+              <h5 class="font-weight-bold">$168.19</h5>
             </li>
-            
-        </ul>
+          </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block">Continúa con la compra</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
 </section>
 <!-- cierre contenido -->
 <!-- inicio footer -->
@@ -98,6 +181,7 @@
             <h6>tel: 4444-4444</h6>
         </div>
     </div>
+    
 </footer>
 	<!-- cierre footer -->
     <!-- scripts bootstrap CDN --> 

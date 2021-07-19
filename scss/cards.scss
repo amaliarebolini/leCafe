@@ -37,12 +37,13 @@
   /* shop*/
 .card {
 	background-color: $fondoCard;
+	border: 0px;
 }
 .listaProductos{
 	text-align: center;
   }
   
-  .listaProductoss__titulo{
+  .listaProductos__titulo{
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Roboto', sans-serif;
@@ -76,4 +77,7 @@
 		border: $calltoaction;
 	}
   
-  
+  .card-img-top{
+	  margin-top: 12px;
+  }
+ 
